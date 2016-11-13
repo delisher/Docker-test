@@ -9,7 +9,7 @@ services:
     environment:
       WORDPRESS_DB_PASSWORD: test
 
-    mysql:
-      image: mysql:latest
-      environment:
-        MYSQL_ROOT_PASSWORD: test
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: test
